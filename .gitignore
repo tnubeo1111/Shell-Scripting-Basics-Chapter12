@@ -462,6 +462,12 @@ The most common test evaluation method is to perform a comparison of two numeric
 Table 12-1 shows the list of condition parameters used for testing two values.
 
 TABLE 12-1 The test Numeric Comparisons (Hình trang 307 )
+      n1 -eq n2           Checks if n1 is equal to n2
+      n1 -ge n2           Checks if n1 is greater than or equal to n2
+      n1 -gt n2           Checks if n1 is greater than n2
+      n1 -le n2           Checks if n1 is less than or equal to n2
+      n1 -lt n2           Checks if n1 is less than n2
+      n1 -ne n2           Checks if n1 is not equal to n2
 
 The numeric test conditions can be used to evaluate both numbers and variables. Here’s an
 example of doing that:
