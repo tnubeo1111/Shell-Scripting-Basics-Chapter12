@@ -1281,6 +1281,13 @@ the standard mathematical operators that the test command uses, Table 12-4 shows
 list of additional operators available for use in the double parentheses command.
 
 TABLE 12-4 The Double Parentheses Command Symbols (trang 325 - 326)
+    val++       Post-increment
+    val--       Post-decrement
+    ++val       Pre-increment
+    --val       Pre-decrement
+    !           Logical negation
+    ~           Bitwise negation
+    **          Exponentiation
 
 You can use the double parentheses command in an if statement, as well as in a normal
 command in the script for assigning values:
