@@ -758,6 +758,17 @@ comparisons in shell scripting. This category allows you to test the status of f
 directories on the Linux filesystem. Table 12-3 lists these comparisons.
 
 TABLE 12-3 The test File Comparisons (Trang 313 - 314)
+      -d file Checks if file exists and is a directory
+      -e file Checks if file exists
+      -f file Checks if file exists and is a fi le
+      -r file Checks if file exists and is readable
+      -s file Checks if file exists and is not empty
+      -w file Checks if file exists and is writable
+      -x file Checks if file exists and is executable
+      -O file Checks if file exists and is owned by the current user
+      -G file Checks if file exists and the default group is the same as thecurrent user
+      file1 -nt file2 Checks if file1 is newer than file2
+      file1 -ot file2 Checks if file1 is older than file2
 
 These conditions give you the ability to check filesystem files within shell scripts. They are
 often used in scripts that access files. Because they’re used so often, let’s look at each of
