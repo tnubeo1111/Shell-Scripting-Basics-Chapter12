@@ -543,6 +543,12 @@ strings can get tricky, as you’ll see. Table 12-2 shows the comparison functio
 you can use to evaluate two string values.
 
 TABLE 12-2 The test String Comparisons (Bảng trang 309)
+      str1   =    str2       Checks if str1 is the same as string str2
+      str1   !=   str2       Checks if str1 is not the same as str2
+      str1   <    str2       Checks if str1 is less than str2
+      str1   >    str2       Checks if str1 is greater than str2
+      -n str1 Checks if str1 has a length greater than zero
+      -z str1 Checks if str1 has a length of zero
 
 ###Looking at string equality
 The equal and not equal conditions are fairly self-explanatory with strings. It’s pretty easy
